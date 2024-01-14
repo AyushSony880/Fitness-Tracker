@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Tracker</title>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav><h1>Fitness Tracker</h1></nav>
+    <div id="container">
+      <!-- <button id="darkBtn">Dark</button> -->
+      <h1 id="heading">Add a Workout</h1>
+      <div id="workOutType">
+        <h2 id="workOutTxtTitle">Workout Type:</h2>
+        <input type="text" id="workOutInputTxt">
+      </div>
+      <div id="workOutDuration">
+        <h2 id="workOutDuraTitle">Duration(minutes):</h2>
+        <input type="number" id="workOutInputMin" />
+      </div>
+      <button id="AddBtn">Add</button>
+      <p class="warning" >Please fill in both fields.</p>
+      <h1 id="AddedListTitle">Workout Log</h1>
+      <section id="AddListSection">
+      </section>
+    </div>
+  </body>
+</html>

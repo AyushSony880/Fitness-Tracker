@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  height: 70px;
+  background-color: #f9fafb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 0px;
+}
+#container {
+  margin: 10px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 5px;
+}
+
+#heading,
+#AddedListTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* #darkBtn {
+  border-radius: 50%;
+  font-weight: 400;
+  padding: 8px 22px;
+  border: none;
+} */
+
+#workOutTxtTitle,
+#workOutDuraTitle {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+#workOutType,
+#workOutDuration {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#workOutInputMin,
+#workOutInputTxt {
+  width: 85vw;
+  border: 2px solid #c8c8c8;
+  font-size: 0.9rem;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+#AddBtn {
+  background-color: #137ff2;
+  font-weight: 400;
+  padding: 8px 18px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#AddBtn:hover {
+  background-color: #0f6ed4;
+}
+
+.warning {
+  opacity: 0;
+  color: red;
+}
+.showWaring {
+  opacity: 100%;
+  color: red;
+}
+#AddedEachDiv {
+    margin-top: 10px;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+#AddedWorkTxt {
+  text-wrap: nowrap;
+  overflow: hidden;
+  margin-right: 7px;
+}
+
+#editDelBtn {
+  text-wrap: nowrap;
+}
+
+#edit {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  padding: 3px 7px;
+  background-color: #137ff2;
+}
+
+#edit:hover {
+  background-color: #0f6ed4;
+}
+#delete {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff3f3f;
+  border: none;
+  color: #ffffff;
+  padding: 3px 7px;
+}
+
+#delete:hover {
+  background-color: #e03232;
+}
