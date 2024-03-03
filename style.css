@@ -137,3 +137,11 @@ nav {
 #delete:hover {
   background-color: #e03232;
 }
+
+
+.made-with{
+  padding: 5px;
+  color: red;
+  font-size: small;
+  margin: 0 15px;
+}
